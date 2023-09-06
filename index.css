@@ -1,0 +1,23 @@
+h1{
+    color:red
+}
+
+.test-hello{
+    color: blueviolet;
+}
+
+#test{
+    color: yellow;
+}
+.hello{
+    background-color: hotpink;
+}
+#test-hello{
+    color: chocolate;
+}
+/* three different ways of giving colors  */
+
+
+*{
+    /* background-color: blue; */
+}

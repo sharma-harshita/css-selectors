@@ -1,0 +1,44 @@
+/* : pseudo classes  */
+/* :: pseudo elements  */
+
+h1::before{
+    content: "Important Note: ";
+    color: red;
+    background-color: aqua;
+    font-size: 20px;
+}
+
+h1::after{
+    content: "!!!!!";
+    color: green;
+    font-size: 20px;
+}
+
+
+::selection{
+    color: hotpink;
+    background-color: aqua;
+}
+
+/* pseudo element helps you to design specific part of the html element whereas pseduo classes helps you to style based on the user events like hover, selected. */
+
+a{
+    cursor: pointer;
+}
+
+a:link{
+    color: chartreuse;
+    
+}
+
+a:hover{
+    color: red;
+}
+
+a:visited{
+    color: orange;
+}
+
+a:active{
+    color: black;
+}

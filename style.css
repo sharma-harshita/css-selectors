@@ -1,0 +1,32 @@
+/* h2{
+    color: blue;
+} */
+
+/* desecendant selector */
+/* div h2{
+    color : red
+} */
+
+
+/* child selector */
+/* div > h2{
+    color : red
+} */
+
+
+
+/* adjacent sibling selector */
+div + h2{
+    color : red
+}
+
+
+/* general sibling selector */
+/* div ~ h2{
+    color : red
+} */
+
+/* 
+div span h2{
+    color: yellow;
+} */
