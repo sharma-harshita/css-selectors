@@ -42,3 +42,59 @@ a:visited{
 a:active{
     color: black;
 }
+
+/* p:first-child{
+    color: red;
+}
+
+p:last-child{
+    color: blue;
+}
+ */
+
+
+/* the paragraph elements which are present at odd positions will have this styling */
+/* p:nth-child(n){
+    color: red;
+    background-color: yellow;
+}
+
+p:nth-child(even){
+    color: red;
+    background-color: yellow;
+} */
+/* p:nth-child(odd){
+    color: red;
+    background-color: yellow;
+} */
+
+/* p:nth-child(3n+2){
+    color: red;
+    background-color: yellow;
+} */
+
+/* p:nth-child(2){
+    color: hotpink;
+    background-color: aqua;
+}
+This styles elements from the end
+p:nth-last-child(2){
+    color: hotpink;
+    background-color: aqua;
+} */
+
+/* This styles only the sibling which are of same type does not concern other siblings of different type. */
+/* p:nth-of-type(odd){
+    color: hotpink;
+    background-color: aqua;
+} */
+
+p:last-of-type{
+    color: brown;
+}
+
+
+.name-input:focus{
+    background-color: blue;
+    color: red;
+}

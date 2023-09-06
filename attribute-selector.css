@@ -1,0 +1,23 @@
+
+
+/* When the attribute is present */
+a[target]{
+    color: red;
+    background-color: blue;
+}
+
+/* When the attribute is present with this value */
+a[target="_blank"]{
+    color: red;
+    background-color: blue;
+}
+
+/* When the attribute contains this value somewhere in the value */
+a[target~="_blank"]{
+    color: red;
+    background-color: blue;
+}
+
+div[item]{
+    background-color: hotpink;
+}
